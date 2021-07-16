@@ -2,6 +2,6 @@
 Aqua CSP samples
 
 - Azure scanner pipeline
-- Gitlab pscanner ipeline
+- Gitlab scanner ipeline
 - Serverless scanner pipeline
 - Sidecar on AWS Fargate
