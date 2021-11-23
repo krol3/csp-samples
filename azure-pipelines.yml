@@ -46,7 +46,8 @@ stages:
       inputs:
         image: 'nginx'
         scanType: 'local'
-        register: true
+        register: false
+        registry: false
         hideBase: true
         showNegligible: false
         scanner: 'registry.aquasec.com/scanner:6.2'
