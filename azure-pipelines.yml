@@ -40,3 +40,13 @@ stages:
         showNegligible: true
         connection: 'demo-2465'
         scanner: 'registry.aquasec.com/scanner:6.2.RC2'
+
+    - task: aquasecScanner@4
+      inputs:
+        image: 'nginx'
+        scanType: 'local'
+        register: true
+        hideBase: true
+        showNegligible: false
+        scanner: 'registry.aquasec.com/scanner:6.2'
+        connection: 'demo-2465'
