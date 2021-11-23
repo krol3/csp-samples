@@ -28,6 +28,7 @@ stages:
 
     - bash: |
         docker pull mongo:latest
+        docker pull nginx:latest
       displayName: Pull Docker image
 
     - task: aquasecScanner@4
